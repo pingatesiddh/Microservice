@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage('Build & Tag Docker Image') {
-            steps {
+            steps { 
                 script {
                     dir('src') {
 
